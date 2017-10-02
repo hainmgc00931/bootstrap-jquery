@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="page-header">
+		  <h3>Youtube Partner <small>Created by C1707G</small></h3>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-xs-12">
+				<!-- Navigation -->
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href="#">Home</a></li>
+					<li class="active"><a href="#">Upload</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Sitemap</a></li>
+				</ul>
+			</div>
+			<div class="col-md-9 col-xs-12">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Video Form</h3>
+				  </div>
+				  <div class="panel-body">
+			    	<form class="form-horizontal">
+						<div class="form-group">
+							<label class="control-label col-md-3">ID</label>
+							<div class="col-md-8">
+								<input type="text" name="video-id" class="form-control" placeholder="Video ID from youtube.">	
+							</div>						
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">Name</label>
+							<div class="col-md-8">
+								<input type="text" name="video-name" class="form-control" placeholder="Enter a name for your video.">
+							</div>
+							
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">Description</label>
+							<div class="col-md-8">
+								<textarea placeholder="Descript your video." name="video-description" class="form-control" rows="3"></textarea>
+							</div>						
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">Keyword</label>
+							<div class="col-md-8">
+								<input type="text" name="video-keywords" class="form-control" placeholder="Enter some keywords for your video.">	
+							</div>						
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">Category</label>						
+							<div class="col-md-8">
+								<label class="checkbox-inline">
+									<input type="checkbox" value="music" name=""> Music
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="movie" name=""> Movie
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="cartoon" name=""> Cartoon
+								</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">Status</label>
+							<div class="col-md-8">
+								<label class="radio-inline">
+								  <input type="radio" name="video-status" value="1" checked> Active
+								</label>
+								<label class="radio-inline">
+								  <input type="radio" name="video-status" value="0"> Deactive
+								</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3"></label>
+							<div class="col-md-8">
+							<button class="btn btn-primary">
+								Submit
+							</button>
+							<button type="reset" class="btn btn-default">
+								Reset
+							</button>
+						</div>
+					</div>
+				</form>
+				  </div>
+				</div>				
+			</div>
+		</div>
+		<div class="page-footer text-center">
+			&copy; C1707G FPT Aptech
+		</div>
+	</div>
+	
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
